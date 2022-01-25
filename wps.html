@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body  style="overflow-x: hidden;">
+<style>
+  #pics{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 450px;
+            border: 1px solid black;
+            margin: 10px;
+            align-items: center;
+            text-align: justify;
+            padding: 10px;
+            border-radius: 15px;
+            background: linear-gradient(to top, rgb(225,45,45) 50%, white 50%);
+            background-size: 100% 200%;
+            transition: all 5s;
+
+
+  }
+  #pics:hover{
+    background-position: left bottom;
+                color: white;
+                border: none;
+                box-shadow: 0 0 20px rgb(225,45,45);
+
+  }
+  #nav {
+    position: fixed;
+    width: 110%;
+    margin-left: -20px;
+  }
+  #nav li a {
+    color: rgba(255, 255, 255, 0.87);
+  }
+  #pics:hover{
+    transform: translate(0);
+    transition: transform .5s ease-in-out; 
+
+  }
+  .nav-coloured {
+    background-color: #fff !important;
+  }
+  .nav-coloured a {
+    color: #aaa !important;
+  }
+  .nav-transparent {
+    background-color: transparent;
+  }
+  .nav-transparent a {
+    color: white !important;
+  }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+  <header>
+<div>
+      <ul class="nav" id="nav">
+          <li class="nav-item">
+              <a class="nav-link " href="#">  <img src="image/wps-removebg-preview.png" alt="" srcset="" style="height: 50px;width: 200px;"></a>
+          </li>
+    <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+          </li> -->
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >Product</a>
+            <ul class="dropdown-menu" >
+              <li ><a class="dropdown-item" href="#" style="color:black;">Action</a></li>
+              <li><a class="dropdown-item" href="#" style="color:black;">Another action</a></li>
+              <li><a class="dropdown-item" href="#" style="color:black;">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Template</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">PDF</a>
+        </li> -->
+        
+        <li class="nav-item dropdown">
+            <span class="badge bg-danger" style="margin-left: 30px;">New</span>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"  style="margin-top: -7px!important">PDF</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Download</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Store</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Premium </a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+        </li> -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Support</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action </a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+
+
+      </ul>
+      
+</div>
+</header>
+ <section  class="w-100  text-light" style="height: 70vh; background-color: #247EFF !important;">
+     <div class="row">
+         <div class="col-11 col-md-4 m-auto m-md-5 " style="margin-top: 160px;transform:translateY(80px);">
+               <h1 style="font-weight: bolder;">WPS Office For PC</h1>
+              <P>Complete office suite with PDF editor</P>
+              <button style="background-color: #F58A2D;color: white; border-radius: 5px;height: 60px;width: 290px;font-size: 20px;">Free Download</button>
+              <p style="margin-left: 60px;font-size: 12px; cursor: pointer;text-decoration: underline;">Offline Installer/</p>
+              <p style="margin-left: 148px;font-size: 12px; cursor: pointer;text-decoration: underline;margin-top: -34px;"> What's New</p>
+
+         </div>
+         <div class="col-11 col-md-6  m-auto m-md-5 " ">
+           <img src="image/up.gif" alt="" style="height:340px; width:550px;margin-top: 30px;">
+        </div>
+     </div>
+ </section>
+ <section class="row my-5">
+   <div class="col-12">
+      <h1 class="display-6" style="font-weight: 400;font-size: 30px;text-align: center;"> Cross-platform Office Suite </h1>
+   </div>
+  <div class="row">
+ <div class="col-11 col-md-2 " style="margin-left: 30px;">
+  <img src="image/a-removebg-preview.png" alt="" srcset="" style="height:120px; width: 120px;margin-left: 70px;">
+  <p style="margin-left: 54px;margin-top: -16px;">WPS Office for Mac</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: 32px;">Dark mode,split screen and<article style="margin-left: 52px;">Handoff</article>  </h5>
+  
+ </div>
+ <div class="col-11 col-md-2">
+<img src="image/window-removebg-preview.png" alt="" srcset="" style="height:120px; width: 120px;margin-left: 10px;">
+<p style="margin-left: 11px;margin-top: -16px;">WPS Office for PC</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: 9px;">Free Download and small size<article style="margin-left: 10px;">size full support for PDF</article>  </h5>
+  
+</div>
+<div class="col-11 col-md-2">
+<img src="image/android-removebg-preview.png" alt="" srcset="" style="height:120; width: 120px; margin-top: 20px;margin-left: -8px;">
+<p style="margin-left: -06px;margin-top: 8px;">WPS Office for Android</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: -11px;">Best of 2015 on Google play<article style="margin-left: 20px;">& Apple store</article>  </h5>
+
+</div>
+<div class="col-11 col-md-2">
+    <img src="image/ios-removebg-preview.png" alt="" srcset="" style="height:80; width: 70px;margin-top: 10px;margin-left: 7px;">
+    <p style="margin-left: -020px;margin-top: 12px;">WPS Office for iOS</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: -14px;">Free, office and PDF  </h5>
+
+</div>
+<div class="col-11 col-md-2">
+    <img src="image/linus-removebg-preview.png" alt="" srcset="" style="height: 70px;width: 100px;margin-left: -65px;margin-top: 30px;">
+    <p style="margin-left: -66px;margin-top: 1px;">WPS Office for Linus</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: -66px;">Native,Compatible and<article style="margin-left: 39px;">efficient</article>  </h5>
+
+</div>
+<div class="col-11 col-md-2" style="margin-top: -180px;margin-left: 1200px;">
+    <img src="image/web.png" alt="" srcset="" style="height: 70px;width: 100px;margin-left: -145px;margin-top: 30px;">
+    <p style="margin-left: -136px;margin-top: 1px;">WPS Office for Linus</p>
+  <h5 class="display-6" style="font-size: 14px; margin-left: -136px;">Native,Compatible and<article style="margin-left: 39px;">efficient</article>  </h5>
+
+</div>
+
+  </div>
+ </section>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    
+    <section  class="w-100  text-light" >
+        <div class="row justify-content-between">
+            <div class="col-11 col-md-6  " style="margin-left: 70px">
+                <img src="image/template-student.e5ced82.png" alt="" style="height:420px;width:540px;margin-left: 55px">
+            </div>
+            
+        <div class="col-11 col-md-4 " style="transform: translateX(-150px); " >
+                <h2 style="color: black; font-size: 28px;">Select better templates for you</h2>
+                               <p> <span style="color: blue;">WPS Office</span> <span style="color: black;">provides free customized templates of word documents, spreadsheet reports, presentation slides for school students, teachers, business financial workers.</span> 
+                                <span style="color: blue;">Download and get free templates</span> </p>
+                
+           </div>
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="col-12 m-5" >
+          <h2 style="text-align: center;">An easier way to start work</h2>
+        </div>
+        <div class="row">
+          <div class="col-11  col-md-4 "  >
+           <img src="image/computer.PNG" alt="" srcset="" style="margin-left: 130px;margin-top: 30px;">
+           <P  style="margin-left: 140px; font-weight: bold;">High Compatibility</P>
+          <P style="margin-left: 70px;">High compatibility with Microsoft Office,</P>  <br>
+          <p style="margin-top: -40px;margin-left: 124px;">Google Docs, Adobe PDF.</p> 
+
+          </div>
+          <div class="col-11 col-md-4"  >
+            <img src="image/cap2.PNG" alt="" srcset="" style="margin-left: 130px;">
+            <P  style="margin-left: 140px; font-weight: bold;">Ultra Light</P>
+            <P style="margin-left: 70px;">Ultra-small installation package, ultra-fast</P>  <br>
+            <p style="margin-top: -40px;margin-left: 124px;">start up speed.
+            </p> 
+  
+          </div>
+          <div class="col-11 col-md-4" >
+          <img src="image/language.PNG" alt="" srcset="" style="margin-left: 130px;">
+          <P  style="margin-left: 180px; font-weight: bold;">Language</P>
+          <P style="margin-left: 70px;">8 Languages for Windows PC and Mac,</P>  <br>
+          <p style="margin-top: -40px;margin-left: 70px;">46 Languages for Android and IOS Mobile 
+          </p> 
+          <p style="margin-top: -10px;margin-left: 174px;">Platforms.
+          </p> 
+
+          </div>
+
+        </div>
+    </section>
+    <section class="row">
+      <div class="col-11 col-md-3" >
+      <img src="image/presentation.png" alt="" srcset="" id="pics" style="height: 200px;width: 220px;margin-left: 60px;">
+      </div>
+      <div class="col-11 col-md-3"  >
+        <img src="image/writer.PNG" alt="" srcset="" id="pics" style="height: 200px;width: 220px;margin-left: 30px;">
+      
+      </div>
+      <div class="col-11 col-md-3" >
+        <img src="image/eeeeeee.PNG" alt="" srcset="" id="pics" style="height: 200px;width: 220px;margin-left: 30px;">
+      
+      </div>
+      <div class="col-11 col-md-3" >
+        <img src="image/pdf.PNG" alt="" srcset="" id="pics" style="height: 200px;width: 220px;margin-left: 30px;">
+
+      </div>
+
+    </section>
+    <section class="row">
+      <div class="col-11 col-md-3" >
+
+      <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">Presentation</p>
+      <p style="margin-left: 29px;">Create your creative slides in WPS</p> 
+      <P style="margin-left: 33px;margin-top: -12px;">Presentation. Best alternative to <span style="margin-left: 66px;">PowerPoint.</span></P>      
+      </div>
+      <div class="col-11 col-md-3" >
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">Writer</p>
+      <p style="margin-left: 29px;">Create and Edit Documents Efficiently </p> 
+      <P style="margin-left: 33px;margin-top: -12px;">by Text Editors. Easy to use like  <span style="margin-left: 66px;">Microsoft Word.</span></P>      
+      
+      </div>
+      <div class="col-11 col-md-3" >
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">Spreadsheets</p>
+      <p style="margin-left: 29px;">Work with WPS Spreadsheet like </p> 
+      <P style="margin-left: 33px;margin-top: -12px;">Microsoft Excel. It supports xls, xlsx, <span style="margin-left: 60px;">and csv file formats.</span></P>      
+      
+      </div>
+      <div class="col-11 col-md-3" >
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">PDF</p>
+      <p style="margin-left: 29px;">Edit PDF files and freely convert </p> 
+      <P style="margin-left: 33px;margin-top: -12px;">between PDF and Word, Excel, <span style="margin-left: 05px;">PowerPoint, and JPG files online.</span></P>      
+      
+      </div>
+
+    </section>
+    <section class="row" style="margin-top: 150px;margin-left: 500px;">
+          <div class="col-11 col-md-1"> 
+            <button style="background-color: #F58A2D;color: white; border-radius: 5px;height: 60px;width: 290px;font-size: 20px;"> Download WPS</button>
+              
+          </div>
+    </section>
+    <section class="row" style="margin-top: 150px;margin-left: 400px;">
+      <div class="col-11 col-md-5"> 
+        <h2>A new generation of office solutions</h2>
+          <p>With PDF, Cloud, OCR, file repair, and other powerful tools, WPS Office is quickly becoming more and more people’s first choice in office software.
+          </p>
+      </div>
+</section>
+ <section class="row" style="margin-top: 170px;">
+         <div class="col-11 col-md-4" >
+             <p style="font-weight: 600;margin-left: 190px;">Powerful PDF</p>
+             <p style="margin-left: 90px;">PDF editing, PDF to word, PDF comment, <span style="margin-left: 30px;">PDF sign, PDF compress, etc.</span> 
+            </p>
+         </div>
+         <div class="col-11 col-md-4" >
+          <p style="font-weight: 600;margin-left: 190px;">WPS Docs</p>
+          <p style="margin-left: 90px;">1G free space. Access files anytime from <span style="margin-left: 30px;">computers and mobile devices.</span> 
+         </p>
+                   </div>
+          
+                   <div class="col-11 col-md-4" >
+                    <p style="font-weight: 600;margin-left: 90px;">Special Features</p>
+          <p style="margin-left: 30px;">File repair, picture to text (OCR), backup <br><span style="margin-left: 60px;">center, and more.
+          </span> 
+         </p>
+
+        </div>
+        
+ </section>
+
+ <section class="row" style="margin-top: 170px;">
+  <div class="col-11 col-md-3" >
+           <p style="margin-left: 90px;">Best of 2015 on Google Play & Apple store 
+     </p>
+  </div>
+  <div class="col-11 col-md-3" >
+   <p style="font-weight: 600;margin-left: 96px; font-size: 26px;margin-top: -50px;">100,000,000</p>
+   <p style="margin-left: 90px;">More than 100000000 PC monthly active users 
+  </p>
+            </div>
+   
+            <div class="col-11 col-md-3" style="margin-left: -39px;" >
+              <p style="font-weight: 600;margin-left: 96px; font-size: 26px;margin-top: -50px;">600,000,000</p>
+              <p style="margin-left: 90px;">More than 600000000 Global users 
+             </p>
+           
+
+ </div>
+ <div class="col-11 col-md-3" style="margin-left: -39px;">
+  <p style="font-weight: 600;margin-left: 96px; font-size: 26px;margin-top: -50px;">200
+  </p>
+  <p style="margin-left: 90px;">Reached more than 200 countries with more than 250 million active users 
+ </p>
+
+</div>
+</section>
+<section class="row" style="margin-top: 150px;margin-left: 400px;">
+  <div class="col-11 col-md-7" style="margin-left: -40px;"> 
+    <h2>WPS Office, complete office suite with PDF editor.</h2>
+      
+  </div>
+</section>
+<section class="row" style="margin-top: 50px;margin-left: 500px;">
+  <div class="col-11 col-md-1"> 
+    <button style="background-color: #F58A2D;color: white; border-radius: 5px;height: 60px;width: 290px;font-size: 20px;"> Download WPS</button>
+      
+  </div>
+</section>
+ <section class="row" style="margin-top: 80px;">
+      <div class="col-11 col-md-2" >
+           <img src="image/wps-removebg-preview.png" alt="" srcset="" style="height: 50px;width: 200px;">
+      </div>
+      <div class="col-11 col-md-2"  >
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">Product</p>
+
+        <p>WPS Office Free</p>
+        <p>  WPS Office Premium</p>
+        <p>WPS Office Business</p>
+        <p> WPS Data Recovery Master</p>
+        <p>WPS Office for Android</p>
+        <p>WPS Office for iOS</p>
+        <p>WPS Office for Linux</p>
+        <p>WPS Docs</p>
+        <p>WPS Academy </p>
+        </div>
+      <div class="col-11 col-md-2" ">
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">Company</p>
+        <p>W</p>
+        <p>  WPS Office Premium</p>
+        <p>WPS Office Business</p>
+        <p> WPS Data Recovery Master</p>
+        <p>WPS Office for Android</p>
+        <p>WPS Office for iOS</p>
+        <p>WPS Office for Linux</p>
+        <p>WPS Docs</p>
+        <p>WPS Academy </p>
+        
+      </div>
+      <div class="col-11 col-md-2" ">
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">PDF</p>
+      <p style="margin-left: 29px;">Edit PDF files and freely convert </p> 
+      <P style="margin-left: 33px;margin-top: -12px;">between PDF and Word, Excel, <span style="margin-left: 05px;">PowerPoint, and JPG files online.</span></P>      
+      
+      </div>
+      <div class="col-11 col-md-2" ;">
+
+        <p style="margin-left: 110px;margin-top: 20px; font-weight: bold;">PDF</p>
+      <p style="margin-left: 29px;">Edit PDF files and freely convert </p> 
+      <P style="margin-left: 33px;margin-top: -12px;">between PDF and Word, Excel, <span style="margin-left: 05px;">PowerPoint, and JPG files online.</span></P>      
+      
+      </div>
+
+    </section>
+   
+</div>
+</div>
+
+  
+
+
+<h1 class="container-fluid display-6">hssssssssssssssssssssssssssssssssssssssssss</h1>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- 
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script> -->
+    <script>
+      var nav = document.getElementById("nav");
+      window.onscroll = function () {
+       if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+        nav.classList.add('nav-coloured');
+        nav.classList.remove('nav-transparent');
+       }
+      
+      else {
+        nav.classList.add('nav-transparent');
+        nav.classList.remove('nav-coloured')
+
+      }
+    }
+    </script>
+</body>
+</html>
